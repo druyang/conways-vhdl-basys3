@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.2 (64-bit)
+# SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+# IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+# Start of session at: Wed May 29 16:05:41 2019
+# Process ID: 614056
+# Current directory: T:/engs31/finalproject/vga_test/vga_test.runs/synth_1
+# Command line: vivado.exe -log vga_driver1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vga_driver1.tcl
+# Log file: T:/engs31/finalproject/vga_test/vga_test.runs/synth_1/vga_driver1.vds
+# Journal file: T:/engs31/finalproject/vga_test/vga_test.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source vga_driver1.tcl -notrace

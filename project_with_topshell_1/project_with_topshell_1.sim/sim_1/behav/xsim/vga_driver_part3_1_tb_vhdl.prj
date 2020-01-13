@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_with_topshell_1.srcs/sim_1/new/vga_driver_part4_2_tb.vhd" \
+
+# Do not sort compile order
+nosort

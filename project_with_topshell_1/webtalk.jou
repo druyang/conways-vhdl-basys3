@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May 31 17:33:10 2019
+# Process ID: 3604
+# Current directory: o:/engs31/finalproject/project_with_topshell_1
+# Command line: wbtcv.exe -mode batch -source O:/engs31/finalproject/final_redo/final_redo.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: o:/engs31/finalproject/project_with_topshell_1/webtalk.log
+# Journal file: o:/engs31/finalproject/project_with_topshell_1\webtalk.jou
+#-----------------------------------------------------------
+source O:/engs31/finalproject/final_redo/final_redo.hw/webtalk/labtool_webtalk.tcl -notrace

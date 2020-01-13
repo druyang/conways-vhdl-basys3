@@ -1,0 +1,1 @@
+-wto "e3358aee2e5f4c359b1e5338e456f45f" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "vga_driver1_behav" "xil_defaultlib.vga_driver1" -log "elaborate.log" 

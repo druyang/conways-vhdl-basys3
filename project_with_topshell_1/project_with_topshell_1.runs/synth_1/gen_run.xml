@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-3" LaunchTime="1559327006">
+  <File Type="PA-TCL" Name="game_topshell.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="game_topshell_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="game_topshell_reports.tcl"/>
+  <File Type="RDS-RDS" Name="game_topshell.vds"/>
+  <File Type="RDS-UTIL" Name="game_topshell_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="game_topshell_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="game_topshell.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="game_topshell_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="game_topshell_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_1_1/blk_mem_gen_1.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vga_driver_part4_2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../vga_driver_part4_2/vga_driver_part4_2.srcs/sources_1/new/vga_driver_part4_2.vhd"/>
+        <Attr Name="ImportTime" Val="1559247360"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/game_topshell.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../vga_driver_part4_2/vga_driver_part4_2.srcs/sources_1/new/game_topshell.vhd"/>
+        <Attr Name="ImportTime" Val="1559248504"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_0_2/blk_mem_gen_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/button_control3.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="game_topshell"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/lab5_files-1/lab5-17X.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/hanoverdynamics/Downloads/lab5_files-1/lab5-17X.xdc"/>
+        <Attr Name="ImportTime" Val="1556594566"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,18 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto e2d771fdf8384c57aa7b60f8aaaa5271 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot vga_driver_part3_1_tb_behav xil_defaultlib.vga_driver_part3_1_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.vga_driver_part3_1 [vga_driver_part3_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.vga_driver_part3_1_tb
+Built simulation snapshot vga_driver_part3_1_tb_behav

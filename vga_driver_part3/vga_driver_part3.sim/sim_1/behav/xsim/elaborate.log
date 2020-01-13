@@ -1,0 +1,7 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto facb3b5ede244527a64ac56e2a26089b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot vga_driver_part3_1_tb_behav xil_defaultlib.vga_driver_part3_1_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2666] formal port alive has no actual or default value [T:/engs31/finalproject/vga_driver_part3/vga_driver_part3.srcs/sources_1/new/vga_driver_part3_1.vhd:14]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit vga_driver_part3_1_tb in library work failed.

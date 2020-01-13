@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2.2 (64-bit)
+# SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+# IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+# Start of session at: Thu May 30 12:41:15 2019
+# Process ID: 725332
+# Current directory: T:/engs31/finalproject/vga_test/vga_test.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source T:/engs31/finalproject/vga_test/vga_test.sim/sim_1/behav/xsim/xsim.dir/vga_driver1_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: T:/engs31/finalproject/vga_test/vga_test.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: T:/engs31/finalproject/vga_test/vga_test.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source T:/engs31/finalproject/vga_test/vga_test.sim/sim_1/behav/xsim/xsim.dir/vga_driver1_behav/webtalk/xsim_webtalk.tcl -notrace

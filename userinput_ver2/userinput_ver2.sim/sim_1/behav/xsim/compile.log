@@ -1,0 +1,11 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "O:/engs31/finalproject/userinput_ver2/userinput_ver2.srcs/sources_1/new/button_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity button_control
+ERROR: [VRFC 10-1471] type error near upsignal ; current type std_logic; expected type boolean [O:/engs31/finalproject/userinput_ver2/userinput_ver2.srcs/sources_1/new/button_control.vhd:168]
+ERROR: [VRFC 10-1471] type error near downsignal ; current type std_logic; expected type boolean [O:/engs31/finalproject/userinput_ver2/userinput_ver2.srcs/sources_1/new/button_control.vhd:174]
+ERROR: [VRFC 10-1471] type error near rightsignal ; current type std_logic; expected type boolean [O:/engs31/finalproject/userinput_ver2/userinput_ver2.srcs/sources_1/new/button_control.vhd:180]
+ERROR: [VRFC 10-1471] type error near leftsignal ; current type std_logic; expected type boolean [O:/engs31/finalproject/userinput_ver2/userinput_ver2.srcs/sources_1/new/button_control.vhd:162]
+ERROR: [VRFC 10-1471] type error near datasignal ; current type std_logic; expected type boolean [O:/engs31/finalproject/userinput_ver2/userinput_ver2.srcs/sources_1/new/button_control.vhd:190]
+ERROR: [VRFC 10-1471] type error near centersignal ; current type std_logic; expected type boolean [O:/engs31/finalproject/userinput_ver2/userinput_ver2.srcs/sources_1/new/button_control.vhd:188]
+ERROR: [VRFC 10-1471] type error near write_signal ; current type std_logic; expected type boolean [O:/engs31/finalproject/userinput_ver2/userinput_ver2.srcs/sources_1/new/button_control.vhd:196]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [O:/engs31/finalproject/userinput_ver2/userinput_ver2.srcs/sources_1/new/button_control.vhd:40]
+INFO: [VRFC 10-240] VHDL file O:/engs31/finalproject/userinput_ver2/userinput_ver2.srcs/sources_1/new/button_control.vhd ignored due to errors

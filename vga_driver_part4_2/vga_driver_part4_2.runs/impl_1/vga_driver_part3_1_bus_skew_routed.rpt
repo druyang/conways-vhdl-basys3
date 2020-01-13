@@ -1,0 +1,15 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2.2 (win64) Build 2348494 Mon Oct  1 18:25:44 MDT 2018
+| Date         : Thu May 30 16:18:20 2019
+| Host         : DESKTOP-NLIN2T4 running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file vga_driver_part3_1_bus_skew_routed.rpt -pb vga_driver_part3_1_bus_skew_routed.pb -rpx vga_driver_part3_1_bus_skew_routed.rpx
+| Design       : vga_driver_part3_1
+| Device       : 7a35t-cpg236
+| Speed File   : -3  PRODUCTION 1.23 2018-06-13
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+
